@@ -298,6 +298,11 @@ blockquote span {
 .btn.btn-dark:hover {
     background-color: rgb(167, 166, 166);
 }
+.btn.btn-small {
+    padding: 6px 10px;
+    border-radius: 2px;
+    font-size: 11px;
+}
 
 @media (max-width: 479px) {
     .btn.btn-dark {
@@ -305,11 +310,6 @@ blockquote span {
     }
 }
 
-.btn.btn-small {
-    padding: 6px 10px;
-    border-radius: 2px;
-    font-size: 11px;
-}
 .creat-project .title {
     margin-bottom: 25px;
 }
@@ -996,5 +996,3 @@ blockquote span {
 .button-up a:hover {
     color: #111;
 }
-/* dfdfdf */
-/* dfdfhghgjhk */
