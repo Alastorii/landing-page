@@ -244,6 +244,7 @@ blockquote span {
     height: 100%;
     vertical-align: middle;
     display: inline-block;
+    margin-left: -4px;
 }
 .inner-content {
     vertical-align: middle;
@@ -275,6 +276,14 @@ blockquote span {
 @media (max-width: 599px) {
     .inner-content h1 {
         font-size: 25px;
+    }
+}
+@media (max-width: 479px) {
+    .inner-content h1 {
+        font-size: 19px;
+    }
+    .inner-content span {
+        font-size: 12px;
     }
 }
 
