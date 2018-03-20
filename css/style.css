@@ -61,6 +61,7 @@ textarea {
         padding: 30px 0;
     }
 }
+/* Standart component end */
 
 /* Tabs start */
 .nav-tabs {
@@ -154,8 +155,8 @@ textarea {
         margin-bottom: 40px;
     }
 }
-
 /* /TITLE */
+
 .default-text {
     font-size: 15px;
     line-height: 1.733;
@@ -316,6 +317,8 @@ blockquote span {
 .btn.btn-default:hover {
     color: #9d9d9d;
 }
+
+/* ABOUT STUDIO START */
 .about-studio .about-studio-text {
     margin-bottom: 100px;
 }
@@ -450,6 +453,71 @@ blockquote span {
         margin-bottom: 10px;
     }
 }
+/* ABOUT STUDIO END */
+
+/* Services start */
+.services-tab .nav-tabs > li {
+    width: 20%;
+    text-align: center;
+    font-size: 14px;
+}
+.services-tab .nav-tabs > li .icon {
+    font-size: 48px;
+    margin-bottom: 38px;
+}
+.services-tab .nav-tabs > li a span:not(.icon) {
+    display: block;
+}
+.services-tab .tab-content {
+    margin-top: 70px;
+}
+
+@media (max-width: 991px) {
+    .services-tab .nav-tabs > li {
+        width: 50%;
+        margin-bottom: 35px;
+    }
+    .services-tab .nav-tabs > li:last-child {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .services-tab .tab-content .default-text {
+        margin-bottom: 15px;
+    }
+    .services-tab .tab-content blockquote {
+        margin-bottom: 20px;
+    }
+}
+/* Services end */
+
+/* LETS TALK START */
+.lets-talk-content {
+    padding: 140px 0;
+}
+.lets-talk-content p {
+    color: rgba(255, 255, 255, .7);
+    margin-bottom: 40px;
+}
+.lets-talk-img {
+    margin-top: -32px;
+}
+
+@media (max-width: 767px) {
+    .lets-talk-content {
+        padding: 50px 0;
+    }
+    .lets-talk-img {
+        display: none;
+    }
+}
+@media (max-width: 991px) {
+    .lets-talk-img {
+        margin-top: 100px;
+    }
+}
+/* LETS TALK END */
+
 /* Why choose us */
 .w-c-u .title-small {
     color: #111;
@@ -483,7 +551,6 @@ blockquote span {
         margin-top: 0;
     }
 }
-
 /* /Why choose us */
 
 /* Carousel START */
@@ -694,73 +761,7 @@ blockquote span {
         margin-bottom: 10px;
     }
 }
-
 /* STAY INFORMED END */
-
-/* Services start */
-.services-tab .nav-tabs > li {
-    width: 20%;
-    text-align: center;
-    font-size: 14px;
-}
-.services-tab .nav-tabs > li .icon {
-    font-size: 48px;
-    margin-bottom: 38px;
-}
-.services-tab .nav-tabs > li a span:not(.icon) {
-    display: block;
-}
-.services-tab .tab-content {
-    margin-top: 70px;
-}
-
-@media (max-width: 991px) {
-    .services-tab .nav-tabs > li {
-        width: 50%;
-        margin-bottom: 35px;
-    }
-    .services-tab .nav-tabs > li:last-child {
-        width: 100%;
-    }
-}
-@media (max-width: 767px) {
-    .services-tab .tab-content .default-text {
-        margin-bottom: 15px;
-    }
-    .services-tab .tab-content blockquote {
-        margin-bottom: 20px;
-    }
-}
-
-/* Services end */
-
-/* LETS TALK START */
-.lets-talk-content {
-    padding: 140px 0;
-}
-.lets-talk-content p {
-    color: rgba(255, 255, 255, .7);
-    margin-bottom: 40px;
-}
-.lets-talk-img {
-    margin-top: -32px;
-}
-
-@media (max-width: 767px) {
-    .lets-talk-content {
-        padding: 50px 0;
-    }
-    .lets-talk-img {
-        display: none;
-    }
-}
-@media (max-width: 991px) {
-    .lets-talk-img {
-        margin-top: 100px;
-    }
-}
-
-/* LETS TALK END */
 
 /* Portfolio start */
 .portfolio {
@@ -986,6 +987,7 @@ blockquote span {
     color: #999;
 }
 /* FOOTER END */
+
 .button-up a {
     color: #c6c6c6;
     font-size: 50px;
