@@ -1,0 +1,73 @@
+ћануал по установке git
+
+https://kuroikaze85.wordpress.com/2009/12/16/git-on-windows/
+
+ 
+
+—татьи по git
+
+https://git-scm.com/book/ru/v1/%D0%92%D0%B2%D0%B5%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%9E%D1%81%D0%BD%D0%BE%D0%B2%D1%8B-Git
+
+https://habrahabr.ru/post/174467/
+
+ 
+
+Ўпаргалки по Git
+
+http://dev-lab.info/2013/08/%D1%88%D0%BF%D0%B0%D1%80%D0%B3%D0%B0%D0%BB%D0%BA%D0%B0-%D0%BF%D0%BE-git-%D0%BE%D1%81%D0%BD%D0%BE%D0%B2%D0%BD%D1%8B%D0%B5-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D1%8B-%D1%81%D0%BB%D0%B8%D1%8F%D0%BD/
+
+ 
+
+https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf
+
+ 
+
+«аполнение readme
+
+http://webdesign.ru.net/article/pravila-oformleniya-fayla-readmemd-na-github.html
+
+ 
+
+»нструкци€ по gitignore
+
+http://zencoder.ru/gulp/gitignore/
+
+ 
+
+ƒл€ использовани€ git pages 
+
+Ќужно создать репозиторий с именем username.github.io
+
+где username ваш им€ на github. 
+
+ 
+
+ѕоле этого он будет доступен по адресу username.github.io
+
+ 
+
+ѕор€док загрузки на гит нового репозитори€
+
+1. —оздаете удаленный репозиторий на github
+
+2. в проекте в папке www через командную строку вводите следующие команды
+
+git init (инициализаци€ пустого репозитори€)
+git add . (добавление файлов к отслеживанию)
+git commit -m "first commit" (созранение версий)
+git remote add origin ссылка на ваш удаленный репозиторий (эта команда выполн€етс€ один раз при создании локального репозиторий)
+git push origin master (загрузка на удаленный репозиторий)
+3. пор€док команд при обычной работе с проектом
+
+git add .
+git commit -m "комментарии"
+git push origin master (напомню что master это им€ ветки)
+4. ќстальные команды которые пригод€тс€ позже
+
+git status (посмотреть состо€ние файлов)
+git pull origin "им€ ветки" (ст€нуть изменени€ с какой то ветки)
+git clone "ссылка на репозиторий" (клонировать репозиторий)
+git branch (посмотреть все ветки проекта и ту ветку в которой вы сейчас)
+git checkout -b "имс€ ветка" (создание и переход в новую ветку)
+git checkout "им€ ветки" (переход в указанную ветку)
+git merge "им€ ветки" (объединение информации из указанной ветки в ту в которой вы находитесь)
