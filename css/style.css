@@ -61,6 +61,7 @@ textarea {
         padding: 30px 0;
     }
 }
+/* Standart component end */
 
 /* Tabs start */
 .nav-tabs {
@@ -154,8 +155,8 @@ textarea {
         margin-bottom: 40px;
     }
 }
-
 /* /TITLE */
+
 .default-text {
     font-size: 15px;
     line-height: 1.733;
@@ -243,6 +244,7 @@ blockquote span {
     height: 100%;
     vertical-align: middle;
     display: inline-block;
+    margin-left: -4px;
 }
 .inner-content {
     vertical-align: middle;
@@ -274,6 +276,14 @@ blockquote span {
 @media (max-width: 599px) {
     .inner-content h1 {
         font-size: 25px;
+    }
+}
+@media (max-width: 479px) {
+    .inner-content h1 {
+        font-size: 19px;
+    }
+    .inner-content span {
+        font-size: 12px;
     }
 }
 
@@ -313,10 +323,10 @@ blockquote span {
 .creat-project .title {
     margin-bottom: 25px;
 }
-
 .btn.btn-default:hover {
     color: #9d9d9d;
 }
+
 /* ABOUT STUDIO START */
 .about-studio .about-studio-text {
     margin-bottom: 100px;
@@ -488,7 +498,6 @@ blockquote span {
         margin-bottom: 20px;
     }
 }
-
 /* Services end */
 
 /* LETS TALK START */
@@ -517,80 +526,6 @@ blockquote span {
     }
 }
 /* LETS TALK END */
-
-/* Portfolio start */
-.portfolio {
-    margin-top: 140px;
-    margin-bottom: 7px;
-}
-.portfolio p {
-    font-size: 15px;
-    line-height: 26px;
-    margin-bottom: 86px;
-}
-.portfolio-tab {
-    overflow: hidden;
-}
-.portfolio .tab-content img {
-    filter: grayscale(100%);
-}
-.portfolio .tab-content img:hover {
-    filter: grayscale(0%);
-}
-.portfolio-tab .nav-tabs li + li {
-    margin-left: 69px;
-}
-.portfolio-tab .nav-tabs > li {
-    float: none;
-    display: inline-block;
-    margin-bottom: 50px;
-}
-.portfolio .potfolio-item img {
-    float: left;
-    width: 33.333%;
-}
-
-@media (max-width: 1199px) {
-    .portfolio .potfolio-item img {
-        width: 50%;
-    }
-}
-@media (max-width: 991px) {
-    .portfolio .potfolio-item img {
-        width: 100%;
-    }
-}
-@media (max-width: 767px) {
-    .portfolio-tab .nav-tabs > li {
-        margin-bottom: 30px;
-    }
-    .portfolio-tab .nav-tabs li + li {
-        margin-left: 25px;
-    }
-}
-@media (max-width: 599px) {
-    .portfolio-tab .nav-tabs a {
-        font-size: 13px;
-    }
-    .portfolio-tab .nav-tabs > li {
-        margin-bottom: 20px;
-    }
-    .portfolio-tab .nav-tabs li + li {
-        margin-left: 13px;
-    }
-}
-@media (max-width: 479px) {
-    .portfolio-tab .nav-tabs a {
-        font-size: 13px;
-    }
-    .portfolio-tab .nav-tabs > li {
-        margin-bottom: 20px;
-    }
-    .portfolio-tab .nav-tabs li + li {
-        margin-left: 53px;
-    }
-}
-/* Portfolio end */
 
 /* Why choose us */
 .w-c-u .title-small {
@@ -790,6 +725,7 @@ blockquote span {
         float: left;
     }
 }
+
 /* LATEST NEWS END */
 
 /* STAY INFORMED START */ 
@@ -835,6 +771,80 @@ blockquote span {
     }
 }
 /* STAY INFORMED END */
+
+/* Portfolio start */
+.portfolio {
+    margin-top: 140px;
+    margin-bottom: 7px;
+}
+.portfolio p {
+    font-size: 15px;
+    line-height: 26px;
+    margin-bottom: 86px;
+}
+.portfolio-tab {
+    overflow: hidden;
+}
+.portfolio .tab-content img {
+    filter: grayscale(100%);
+}
+.portfolio .tab-content img:hover {
+    filter: grayscale(0%);
+}
+.portfolio-tab .nav-tabs li + li {
+    margin-left: 69px;
+}
+.portfolio-tab .nav-tabs > li {
+    float: none;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.portfolio .potfolio-item img {
+    float: left;
+    width: 33.333%;
+}
+
+@media (max-width: 1199px) {
+    .portfolio .potfolio-item img {
+        width: 50%;
+    }
+}
+@media (max-width: 991px) {
+    .portfolio .potfolio-item img {
+        width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .portfolio-tab .nav-tabs > li {
+        margin-bottom: 30px;
+    }
+    .portfolio-tab .nav-tabs li + li {
+        margin-left: 25px;
+    }
+}
+@media (max-width: 599px) {
+    .portfolio-tab .nav-tabs a {
+        font-size: 13px;
+    }
+    .portfolio-tab .nav-tabs > li {
+        margin-bottom: 20px;
+    }
+    .portfolio-tab .nav-tabs li + li {
+        margin-left: 13px;
+    }
+}
+@media (max-width: 479px) {
+    .portfolio-tab .nav-tabs a {
+        font-size: 13px;
+    }
+    .portfolio-tab .nav-tabs > li {
+        margin-bottom: 20px;
+    }
+    .portfolio-tab .nav-tabs li + li {
+        margin-left: 53px;
+    }
+}
+/* Portfolio end */
 
 /* Contact us start */
 .contact-item .contact-item-icon,
